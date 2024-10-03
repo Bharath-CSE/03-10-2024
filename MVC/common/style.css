@@ -1,0 +1,53 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3498db; /* Attractive blue */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo styling */
+.header .logo a {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Navigation links styling */
+.header .nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header .nav-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect for links */
+.header .nav-links ul li a:hover {
+    color: #f39c12; /* Bright orange for hover effect */
+}
+
